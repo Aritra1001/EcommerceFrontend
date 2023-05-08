@@ -1,13 +1,60 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* font-family: 'Raleway', sans-serif; */
+
+/* navbar css */
+.navbar{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 0 8px 8px -6px gray;
+  border-bottom: 0.3px solid gray;
+}
+
+.navbar2 a:hover{
+    border-bottom: 2px solid crimson;
+}
+
+.active{
+    /* background-color:darksalmon; */
+    /* text-decoration:underline ; */
+    border-bottom: 2px solid crimson;
+}
+
+/* footer css */
+.footer a{
+  color:white;
+  padding: 3px 8px;
+  text-decoration: none;
+}
+.footer a:hover{
+  color:rgb(200, 147, 78);
+  border-bottom: 2px solid darkseagreen;
+}
+
+/* pagenot found css */
+.pnf{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  min-height: 65vh;
+}
+
+.pnf-head{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-warn{
+  font-weight:500;
+}
+.pnf-btn{
+  font-size: 20px;
 }

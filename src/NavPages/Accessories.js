@@ -4,7 +4,7 @@ import Layout from '../components/Layout/Layout'
 const Accessories = () => {
   return (
     <>
-        <Layout>
+        <Layout title={'Ecommerce App- Accessories'}>
             <h1>Accessories Page</h1>
         </Layout>
     </>

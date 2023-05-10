@@ -4,7 +4,7 @@ import Layout from '../components/Layout/Layout'
 const Macbook = () => {
   return (
     <>
-        <Layout>
+        <Layout title={'Ecommerce App- Macbook'}>
             <h1>Macbook Page</h1>
         </Layout>
     </>

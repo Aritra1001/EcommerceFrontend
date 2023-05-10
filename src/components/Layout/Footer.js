@@ -6,7 +6,7 @@ const Footer = () => {
     <>
         <div className="bg-dark text-light p-2 footer">
             <h4 className='text-center'>All Rights Reserved © iSHOP </h4>
-            <p className="text-center">
+            <p className="text-center mt-3">
                 <Link to='/about'>About Us</Link>
                 |
                 <Link to='/contact'>Contact Us</Link>
@@ -18,4 +18,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

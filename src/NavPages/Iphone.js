@@ -4,7 +4,7 @@ import Layout from '../components/Layout/Layout'
 const Iphone = () => {
   return (
     <>
-       <Layout>
+       <Layout title={'Ecommerce App- Iphone'}>
             <h1>Iphone Page</h1>
        </Layout>
     </>

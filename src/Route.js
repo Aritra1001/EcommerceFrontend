@@ -10,6 +10,8 @@ import About from "./NavPages/About";
 import Contact from "./NavPages/Contact";
 import Privacy from "./NavPages/Privacy";
 import Page from "./NavPages/Page";
+import Signup from "./NavPages/Auth/Signup";
+import Login from "./NavPages/Auth/Login";
 
 function RouterCompo(){
     return(
@@ -25,6 +27,8 @@ function RouterCompo(){
                     <Route path="/about" element={<About/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/privacypolicy" element={<Privacy/>}/>
+                    <Route path="/signup" element={<Signup/>}/>
+                    <Route path="/login" element={<Login/>}/>
                     <Route path="*" element={<Page/>}/>
                 </Routes>
             </BrowserRouter>

@@ -81,3 +81,17 @@
 .privacy-list{
     width: 60%;
 }
+
+/* Signup css */
+.signup{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.signup-head{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkorange;
+  font-weight: bold;
+}

@@ -33,7 +33,7 @@ const Login = () => {
   return (
     <>
         <Layout title={'Ecommerce App- login'}>
-        <div className="signup my-3">
+        <div className="form-container">
           <h1 className="signup-head">Login Page</h1>
           <form className="my-3" onSubmit={handleSubmit}>
             <div className="mb-3">
@@ -65,9 +65,11 @@ const Login = () => {
                 required
               />
             </div>
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
+            <div className="text-center">
+                <button type="submit" className="btn btn-dark ">
+                    Login
+                </button>
+            </div>
           </form>
         </div>
         </Layout>

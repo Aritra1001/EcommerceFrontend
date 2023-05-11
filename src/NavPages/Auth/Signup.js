@@ -35,8 +35,8 @@ const Signup = () => {
   return (
     <>
       <Layout title={"Ecommerce App- signup"}>
-        <div className="signup my-3">
-          <h1 className="signup-head">Signup Page</h1>
+        <div className="form-container">
+          <h1 className="signup-head my-4">Signup Page</h1>
           <form className="my-3" onSubmit={handleSubmit}>
             <div className="mb-3">
               <label htmlFor="exampleInputName" className="form-label">
@@ -96,9 +96,11 @@ const Signup = () => {
                 required
               />
             </div>
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
+            <div className="text-center">
+                <button type="submit" className="btn btn-dark ">
+                     Signup
+                </button>
+            </div>
           </form>
         </div>
       </Layout>

@@ -83,15 +83,35 @@
 }
 
 /* Signup css */
-.signup{
-  display:flex;
+.form-container{
+  display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 87vh;
   flex-direction: column;
-  height: 70vh;
+  background: rgb(238,174,202);
+  background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(231,168,217,1) 75%);
 }
 .signup-head{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: darkorange;
+  color: rebeccapurple;
   font-weight: bold;
+}
+
+.form-container form{
+  box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  width: 25vw;
+  background-color:antiquewhite;
+}
+.form-label{
+  font-size: 15px;
+  font-weight: 600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-container form button{
+  width: 6em;
+}
+.form-container form button:hover{
+  color:rgb(224, 166, 90);
 }
